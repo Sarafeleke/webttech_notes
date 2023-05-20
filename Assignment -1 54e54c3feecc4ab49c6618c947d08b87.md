@@ -1,8 +1,5 @@
 # Assignment -1
 
-# Transistors
-
-A transistor is an electronic component that can be used to control the flow of current through a semiconductor material.
 
 # scss
 
