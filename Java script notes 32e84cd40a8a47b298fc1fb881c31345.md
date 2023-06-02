@@ -256,7 +256,22 @@ let x = "Volvo" + 16 + 4;
 //Result:
 //Volvo164
 ```
-
+## windows method
+Window alert() method
+As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+Window prompt() method
+The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+Window confirm() method
+The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button. A confirm box is often used to ask permission from a user to execute something.
+## Date objects
+```jsx
+const now = new Date() // gives information about time
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
+```
 # Javascript control statements
 
 Javascript control statement is used to control the flow of program based on the specified condition.
